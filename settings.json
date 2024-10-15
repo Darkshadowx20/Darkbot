@@ -1,0 +1,59 @@
+{
+  "bot-account": {
+    "username": "Darkbot",
+    "password": "",
+    "type": "mojang"
+  },
+
+  "server": {
+    "ip": "play.sionco.com",
+    "port": "",
+    "version": "1.19.2"
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "Darkbotx@30"
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": false,
+      "jump": true,
+      "rotate": false,
+
+      "hit": {
+        "enabled": false,
+        "delay": 10,
+        "attack-mobs": false
+      },
+
+      "circle-walk": {
+        "enabled": false,
+        "radius": 5
+      }
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 5000,
+
+      "messages": [
+        ""
+      ]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 5000
+  }
+}
