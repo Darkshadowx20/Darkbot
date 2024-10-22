@@ -26,18 +26,18 @@
 
     "anti-afk": {
       "enabled": true,
-      "sneak": false,
+      "sneak": true,
       "jump": true,
-      "rotate": false,
+      "rotate": true,
 
       "hit": {
-        "enabled": false,
+        "enabled": true,
         "delay": 10,
         "attack-mobs": false
       },
 
       "circle-walk": {
-        "enabled": false,
+        "enabled": true,
         "radius": 5
       }
     },
